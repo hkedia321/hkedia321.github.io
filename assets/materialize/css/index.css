@@ -1,0 +1,7 @@
+.display-inline-block{
+	display: inline-block;
+}
+.navbar-logo{
+	width: 100px;
+	display: none !important;
+}
