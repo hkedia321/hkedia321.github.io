@@ -1,4 +1,5 @@
 ---
+layout: home
 personal_details:
 - FULL NAME : Harshit Kedia
 - D.O.B. : 10<sup>th</sup> May, 1997
@@ -6,10 +7,9 @@ personal_details:
 - PHONE : +91 9585602122
 - FREELANCE: Available
 
-language_details:
-- English : 
-layout: home
 ---
+<svg id="crt-bg-shape-1" class="hidden-sm hidden-xs" height="519" width="758"> <polygon class="pol" points="0,455,693,352,173,0,92,0,0,71"></polygon> </svg>
+<svg id="crt-bg-shape-2" class="hidden-sm hidden-xs" height="536" width="633"> <polygon points="0,0,633,0,633,536"></polygon> </svg>
 <div class="main-container">
   <div class="container-fluid">
     <div class="row">
@@ -60,13 +60,13 @@ layout: home
             <p>
               I am a student at <a href="https://vit.ac.in" target="_blank">Vellore Institute of Technology, Vellore</a>, where I am pursuing my BTech in Computer Science and Engineering.
               I am a full stack web developer and technology enthusiast.
-              I am currently Associate Technical Head at <a href="http://acmvit.in" target="_blank">Association for Computing Machinery (ACM-VIT)</a>.
-              I love to build things, specially which solves a problem of society. I am actively looking for internships, jobs, freelance, or collaboration projects.
+              I am currently the Associate Technical Head at <a href="http://acmvit.in" target="_blank">Association for Computing Machinery (ACM-VIT)</a>.
+              I love to build things, specially which solves a problem of society. I am actively looking for internships, jobs, freelance, or collaborative projects.
             </p>
           </section>
           <section class="bottom-border">
             <div class="row">
-              <div class="col s12 m6">
+              <div class="col s12 m7">
                 <h6 class="light-text small-heading">personal information</h6>
                 {% for personal_detail in page.personal_details %}
                 {% for row in personal_detail %}
@@ -81,15 +81,29 @@ layout: home
                 {% endfor %}
                 {% endfor %}
               </div>
-              <div class="col s12 m6">
+              <div class="col s12 m5">
                 <h6 class="light-text small-heading">languages</h6>
-                {% for language_detail in page.language_details %}
-                {% for row in language_detail %}
+                {% for language in site.data.languages %}
                 <div class="row personal-details-row">
-
+                  <span class="language-name">{{language.name}}</span>
+                  <div class="circles-div">
+                    {% for circle in (1..language.rating) %}
+                    <span class="circle-filled"></span>
+                      {% endfor %}
+                      {% for circle in (language.rating..4) %}
+                      <span class="circle-hollow"></span>
+                        {% endfor %}
+                        <span class="language-comment light-text vertical-align">{{language.comment}}</span>
+                  </div>
                 </div>
                 {% endfor %}
-                {% endfor %}
+              </div>
+            </div>
+          </section>
+          <section class="bottom-border">
+            <div class="row">
+              <div class="col s12 m6">
+                <h6 class="light-text small-heading">professional skills</h6>
               </div>
             </div>
           </section>

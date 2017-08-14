@@ -1,0 +1,12 @@
+- name: HTML, CSS, JavaScript, Jquery, Sass
+  rate: 95
+- name: NodeJS
+  rate: 70
+- name: PHP
+  rate: 80
+- name: Python
+  rate: 70
+- name: C++
+  rate: 80
+- name: Java
+  rate: 70

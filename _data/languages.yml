@@ -1,0 +1,9 @@
+- name: English
+  rating: 4
+  comment: professional
+- name: Hindi
+  rating: 4
+  comment: native
+- name: Bengali
+  rating: 1
+  comment: regional
