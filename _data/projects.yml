@@ -1,0 +1,43 @@
+- name: VIT Cab Share
+  link: http://vitcabshare.in
+  description: Many people go to Chennai or Bangalore Airport by taxi during vactions. This website allows users to search co-passengers for sharing the cab thus saving them the taxi fare.
+
+- name: Who is Free
+  link: http://whoisfree.16mb.com
+  description: A timetable management system for clubs and chapters in VIT. A club can register all their members' timetalbles and then search for students free in a given slot.
+
+- name: Pravega Racing website
+  link: http://pravegaracing.com
+  description: Pravega Racing is the offcial SAE racing team of VIT University. This is their official website.
+
+- name: Jaabaz website
+  link: http://teamjaabaz.com
+  description: Team Jaabaz represents VIT in BAJA SAE event every year. This is their official website.
+
+- name: Code 2 Create Hackathon
+  link: c2c.acmvit.in
+  description: Code 2 Create is a hackathon hosted by ACM VIT every year.
+
+- name: ACM website
+  link: http://acmvit.in
+  description: ACM VIT is one of the most popular chapters in VIT, which helps students develop their technical skills.
+
+- name: React timer plugin
+  link: https://github.com/hkedia321/react-ultimate-timer
+  description: This is a timer plugin in react.
+
+- name: Eye detection
+  link: https://github.com/hkedia321/
+  description: Eye detection application in Python
+
+- name: MyFFCS
+  link: https://github.com/GDGVIT/myFFCSreLoaded
+  description: MyFFCS helps students to plan their timetables before the actual FFCS.
+
+- name: Marimuthu K website
+  link: http://marimuthuk.com
+  description: Dr. Marimuthu K is a computer science professor in VIT University. This is his official website.
+
+- name: Chrome Extension for downloading files
+  link: htpp
+  description: This Chrome Extension makes it convenient for VIT student to download files from course page.

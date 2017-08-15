@@ -13,6 +13,9 @@ $light-blue:#c0e3e7;
 .smooth{
   transition: all 0.4s ease;
 }
+.font-size-13{
+  font-size: 13px;
+}
 .bold{
   font-weight: 700;
 }
@@ -41,12 +44,14 @@ body{
   padding:20px 40px;
 }
 .portfolio-comment{
-  opacity: 0.8;
+  opacity: 0.6;
    font-style: italic;
+}
+.profile-card-col{
+  padding-top: 20px !important;
 }
 .profile-card{
   width:95%;
-  margin-top: 30px;
   .profile-upper-div{
     padding: 25px 5px;
     background-color: $light-blue;
@@ -146,10 +151,133 @@ cursor: pointer;
     margin-left: 10px;
   }
 }
+.skill-div{
+  .skill-no{
+    float: right;
+  }
+  .skill-title{
+    font-size: 12px;
+    margin-bottom:0;
+  }
+  .skill-no{
+    font-size: 13px;
+    font-weight: normal;
+  }
+  .skill-bar{
+    background-color: #eee;
+    width:100%;
+    display: inline-block;
+    height: 4px;
+    position: relative;
+  }
+  .skill-fill{
+    background-color: $light-blue;
+    height: 4px;
+    display: inline-block;
+    position: absolute;
+  }
+}
+.framework-div{
+  margin-bottom: 20px;
+  .framework-title{
+    font-size: 12px;
+  }
+}
+
+.projects-div{
+  .project-div{
+    .project-title{
+      font-size: 18px;
+      margin-top: 0;
+      cursor: pointer;
+      display: inline-block;
+      border-bottom: 2px solid;
+      margin-bottom: 0px !important;
+    }
+    .project-link-div{
+      text-align: right;
+      float:right;
+      margin-top: 10px;
+      font-size: 10px;
+    }
+    .project-link{
+
+    }
+    .project-description{
+      font-size: 12px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+    }
+  }
+}
 .table-cell{
   letter-spacing: .01em;
   font-size: .9em;
 }
+input{
+  background-color: #f3f3f3 !important;
+  box-sizing: border-box !important;
+    border-bottom: none !important;
+    height: 40px !important;
+    padding:5px 5px !important;
+    line-height: 20px !important;
+    box-shadow:none !important;
+    color: inherit !important;
+    font-family: inherit !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    font-style: normal !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    background-image: none !important;
+    border: 1px solid transparent !important;
+    transition: border .5s cubic-bezier(.23,1,.32,1) 0s !important;
+}
+.btn-submit{
+  font-size: 15px !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    text-decoration: none !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 8px 25px !important;
+    display: inline-block !important;
+    border-radius: 35px !important;
+    background: 0 0 !important;
+    border: 2px solid transparent !important;
+    cursor: pointer !important;
+    box-shadow: transparent 0 0 0 !important;
+    transition: all .5s cubic-bezier(.23,1,.32,1) 0s !important;
+}
+.btn-submit:hover{
+  box-shadow: -1px 2px 4px rgba(0,0,0,.25) !important;
+}
+textarea{
+  background-color: #f3f3f3 !important;
+  box-sizing: border-box !important;
+    border-bottom: none !important;
+    height: 90px !important;
+    padding:5px 5px !important;
+    line-height: 20px !important;
+    box-shadow:none !important;
+    color: inherit !important;
+    font-family: inherit !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    outline: none !important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075) !important;
+    font-style: normal !important;
+    background-image: none !important;
+    border: 1px solid transparent !important;
+    transition: border .5s cubic-bezier(.23,1,.32,1) 0s !important;
+}
+input:focus,textarea:focus{
+  border:1px solid $light-blue !important;
+}
+
 #crt-bg-shape-2 polygon {
     fill: $light-blue;
 }

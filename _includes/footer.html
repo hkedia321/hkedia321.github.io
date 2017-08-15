@@ -1,0 +1,16 @@
+<script src="/assets/js/jquery-3.2.1.min.js" type="text/javaScript"></script>
+<script src="/assets/js/jquery-scrolltofixed-min.js" type="text/javaScript"></script>
+
+<script type="text/javaScript">
+$(document).ready(function() {
+  $('#profile-card').scrollToFixed();
+  $(window).resize(function(){
+    if($(window).width()<769){
+      $('#profile-card').trigger('detach.ScrollToFixed')
+    }
+    else{
+        
+    }
+  })
+});
+</script>

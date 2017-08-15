@@ -13,8 +13,8 @@ personal_details:
 <div class="main-container">
   <div class="container-fluid">
     <div class="row">
-      <div class="col s12 m3">
-        <div class="profile-card card center">
+      <div class="col s12 m3 profile-card-col">
+        <div class="profile-card card center" id="profile-card">
           <div class="profile-upper-div">
             <img src="/assets/images/profile.jpg" class="profile-pic circle responsive-img" />
             <h4 class="name">Harshit Kedia</h4>
@@ -89,11 +89,11 @@ personal_details:
                   <div class="circles-div">
                     {% for circle in (1..language.rating) %}
                     <span class="circle-filled"></span>
-                      {% endfor %}
-                      {% for circle in (language.rating..4) %}
-                      <span class="circle-hollow"></span>
-                        {% endfor %}
-                        <span class="language-comment light-text vertical-align">{{language.comment}}</span>
+                    {% endfor %}
+                    {% for circle in (language.rating..4) %}
+                    <span class="circle-hollow"></span>
+                    {% endfor %}
+                    <span class="language-comment light-text vertical-align">{{language.comment}}</span>
                   </div>
                 </div>
                 {% endfor %}
@@ -104,6 +104,86 @@ personal_details:
             <div class="row">
               <div class="col s12 m6">
                 <h6 class="light-text small-heading">professional skills</h6>
+                {% for skill in site.data.skills %}
+                <div class="skill-div">
+                  <h5 class="bold skill-title">{{skill.name}}
+                    <span class="skill-no">{{skill.rate}}%</span>
+                  </h5>
+                  <span class="skill-bar"><span class="skill-fill" style="width:{{skill.rate}}%"></span></span>
+                </div>
+                {% endfor %}
+              </div>
+              <div class="col s12 m6">
+                <h6 class="light-text small-heading">frameworks known</h6>
+                {% for framework in site.data.frameworks %}
+                <div class="col s6 m4">
+                  <div class="framework-div">
+                    <div>
+                    <div class="c100 p{{framework.rate}} small">
+                      <span>{{framework.rate}}%</span>
+                      <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                      </div>
+                    </div>
+                  </div>
+                    <h5 class="bold center framework-title">{{framework.name}}</h5>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
+          </section>
+          <section class="bottom-border">
+            <div class="row">
+              <div class="col s12 m12">
+                <h6 class="light-text small-heading">projects</h6>
+                <div class="projects-div">
+                  {% for project in site.data.projects %}
+                  <div class="project-div">
+                    <a href="{{project.link}}" target="_blank"><h4 class="project-title bold">{{project.name}}</h4></a>
+                    <div class="project-link-div">
+                      <a href="{{project.link}}" target="_blank"><span class="project-link light-text">{{project.link | replace: "https", "" | replace: "http", "" | replace: "://", "" | replace: "www", ""}}</span></a>
+                    </div>
+                    <p class="project-description">
+                      {{project.description}}
+                    </p>
+                  </div>
+                  {% endfor %}
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="bottom-border">
+            <div class="row">
+              <div class="col s12 m12">
+                  <h6 class="light-text small-heading">Contact me</h6>
+                  <div class="row">
+                  <form onsubmit="">
+                    <div class="col s12 m6">
+                      <div class="light-text font-size-13">
+                        <b>Name</b>
+                      </div>
+                      <input type="text" placeholder="Your Name" />
+                    </div>
+                    <div class="col s12 m6">
+                      <div class="light-text font-size-13">
+                        <b>Email</b>
+                      </div>
+                      <input type="email" placeholder="Your Email" />
+                    </div>
+                    <div class="col s12 m12">
+                      <div class="light-text font-size-13">
+                        <b>Message</b>
+                      </div>
+                    <textarea placeholder="Your message">
+                    </textarea>
+                    </div>
+                    <div class="col s12 m12">
+                      <button type="submit" style="background-color: #c0e3e7 !important;" class="btn-submit">submit</button>
+                    </div>
+                  </form>
+                  </div>
               </div>
             </div>
           </section>
