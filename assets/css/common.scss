@@ -300,7 +300,27 @@ input:focus,textarea:focus{
 #crt-bg-shape-1 {
     left: 0;
 }
-
+.exps-div{
+  .exp-div{
+  margin-bottom: 20px;
+}
+  .exp-title{
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .exp-position{
+    font-style: italic;
+  }
+  .exp-year{
+    float: right;
+    font-style: normal;
+    font-size: 11px;
+  }
+  .exp-description{
+    font-size: 13px;
+    color: #444;
+  }
+}
 
 @media (max-width:800px) and (min-width:600px){
   .cv-btn{

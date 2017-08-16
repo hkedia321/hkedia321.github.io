@@ -115,6 +115,7 @@ personal_details:
               </div>
               <div class="col s12 m6">
                 <h6 class="light-text small-heading">frameworks known</h6>
+
                 {% for framework in site.data.frameworks %}
                 <div class="col s6 m4">
                   <div class="framework-div">
@@ -139,7 +140,35 @@ personal_details:
           <section class="">
             <div class="row">
               <div class="col s12 m12">
-                <h4 class="card-heading bold">projects</h4>
+                <h4 class="card-heading bold">Experience</h4>
+                <div class="exps-div">
+                  <ul>
+                  {% for exp in site.data.experience %}
+                  <li>
+                  <div class="exp-div">
+                    <a href="{{exp.link}}" target="_blank"><h5 class="exp-title">{{exp.name}}
+
+                    </h5></a>
+                    <h6 class="exp-position light-text bold">{{exp.position}}
+                      <span class="exp-year light-text">({{exp.year}})</span>
+                    </h6>
+                    <p class="exp-description">
+                      {{exp.description}}
+                    </p>
+                  </div>
+                  </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="card right-col-card">
+          <section class="">
+            <div class="row">
+              <div class="col s12 m12">
+                <h4 class="card-heading bold">Projects</h4>
                 <div class="projects-div">
                   {% for project in site.data.projects %}
                   <div class="project-div">

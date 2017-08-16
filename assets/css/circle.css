@@ -30,7 +30,7 @@
   border-radius: 50%;
   display: inline-block;
   margin: 0 0.1em 0.1em 0;
-  background-color: #ccc;
+  background-color: #eee;
 }
 .c100 *, .c100 *:before, .c100 *:after {
   -moz-box-sizing: content-box;
