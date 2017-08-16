@@ -10,6 +10,9 @@ $light-blue:#c0e3e7;
 *{
   word-break: break-word;
 }
+.margin-top-0{
+  margin-top: 0 !important;
+}
 .smooth{
   transition: all 0.4s ease;
 }
@@ -204,7 +207,7 @@ cursor: pointer;
 
     }
     .project-description{
-      font-size: 12px;
+      font-size: 13px;
       margin-top: 5px;
       margin-bottom: 15px;
     }
@@ -277,7 +280,8 @@ textarea{
 input:focus,textarea:focus{
   border:1px solid $light-blue !important;
 }
-
+.card-heading{
+}
 #crt-bg-shape-2 polygon {
     fill: $light-blue;
 }
@@ -309,5 +313,8 @@ input:focus,textarea:focus{
   }
   .profile-card{
     width:100%;
+  }
+  .profile-upper-div{
+    background-color: inherit !important;
   }
 }

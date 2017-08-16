@@ -1,10 +1,11 @@
 - name: VIT Cab Share
   link: http://vitcabshare.in
-  description: Many people go to Chennai or Bangalore Airport by taxi during vactions. This website allows users to search co-passengers for sharing the cab thus saving them the taxi fare.
+  description: "Many people go to Chennai or Bangalore Airport by taxi during vactions.
+  This website allows users to search co-passengers for sharing the cab thus saving them the taxi fare. It has helped hundreds of students."
 
 - name: Who is Free
   link: http://whoisfree.16mb.com
-  description: A timetable management system for clubs and chapters in VIT. A club can register all their members' timetalbles and then search for students free in a given slot.
+  description: A timetable management system for clubs and chapters in VIT. Any club can register all their members' timetables and then search for students who are free in a given slot.
 
 - name: Pravega Racing website
   link: http://pravegaracing.com
@@ -16,7 +17,7 @@
 
 - name: Code 2 Create Hackathon
   link: c2c.acmvit.in
-  description: Code 2 Create is a hackathon hosted by ACM VIT every year.
+  description: Code 2 Create is a hackathon hosted by ACM VIT every year. This is a complete web portal for registering, forming teams, and getting certificates.
 
 - name: ACM website
   link: http://acmvit.in

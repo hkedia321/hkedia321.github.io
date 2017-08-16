@@ -100,7 +100,7 @@ personal_details:
               </div>
             </div>
           </section>
-          <section class="bottom-border">
+          <section class="">
             <div class="row">
               <div class="col s12 m6">
                 <h6 class="light-text small-heading">professional skills</h6>
@@ -118,7 +118,7 @@ personal_details:
                 {% for framework in site.data.frameworks %}
                 <div class="col s6 m4">
                   <div class="framework-div">
-                    <div>
+                    <div class="center">
                     <div class="c100 p{{framework.rate}} small">
                       <span>{{framework.rate}}%</span>
                       <div class="slice">
@@ -127,22 +127,24 @@ personal_details:
                       </div>
                     </div>
                   </div>
-                    <h5 class="bold center framework-title">{{framework.name}}</h5>
+                    <h5 class="bold center framework-title margin-top-0">{{framework.name}}</h5>
                   </div>
                 </div>
                 {% endfor %}
               </div>
             </div>
           </section>
-          <section class="bottom-border">
+        </div>
+        <div class="card right-col-card">
+          <section class="">
             <div class="row">
               <div class="col s12 m12">
-                <h6 class="light-text small-heading">projects</h6>
+                <h4 class="card-heading bold">projects</h4>
                 <div class="projects-div">
                   {% for project in site.data.projects %}
                   <div class="project-div">
                     <a href="{{project.link}}" target="_blank"><h4 class="project-title bold">{{project.name}}</h4></a>
-                    <div class="project-link-div">
+                    <div class="project-link-div hide">
                       <a href="{{project.link}}" target="_blank"><span class="project-link light-text">{{project.link | replace: "https", "" | replace: "http", "" | replace: "://", "" | replace: "www", ""}}</span></a>
                     </div>
                     <p class="project-description">
@@ -154,10 +156,12 @@ personal_details:
               </div>
             </div>
           </section>
-          <section class="bottom-border">
+        </div>
+          <div class="card right-col-card">
+          <section class="">
             <div class="row">
               <div class="col s12 m12">
-                  <h6 class="light-text small-heading">Contact me</h6>
+                  <h4 class="card-heading bold">Contact me</h4>
                   <div class="row">
                   <form onsubmit="">
                     <div class="col s12 m6">
@@ -188,6 +192,7 @@ personal_details:
             </div>
           </section>
         </div>
+        <h6 class="portfolio-coding light-text">&lt;/Portfolio&gt; <span class="portfolio-comment">&lt;!--endding of portfolio--&gt;</span></h6>
       </div>
     </div>
   </div>

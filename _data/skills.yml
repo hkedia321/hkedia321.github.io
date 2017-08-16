@@ -1,6 +1,6 @@
 - name: HTML, CSS, JavaScript, Jquery
   rate: 95
-- name: PHP
+- name: PHP, SQL
   rate: 80
 - name: NodeJS
   rate: 70
