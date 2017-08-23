@@ -15,9 +15,9 @@
 # in the templates via {{ site.myvariable }}.
 title: Harshit Kedia
 email: harshitkedia32@gmail.com
-description: I am Associate Technical Head at ACM VIT. A Computer Science student at VIT University and a Full Stack Web Developer, I am very passionate about latest technology and building softwares which solves real problems.
+description: Hello, I am Harshit Kedia. I am the Associate Technical Head at ACM VIT. I am a Computer Science student at VIT University and a Full Stack Web Developer.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hkedia321.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://harshitkedia.tech" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: harshitkedia32
 github_username:  hkedia321
 
