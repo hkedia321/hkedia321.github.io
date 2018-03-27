@@ -2,20 +2,27 @@
   link: http://acmvit.in
   position: Associate Technical Head
   year: May, 2017 - present
-  description: "ACM is a leading students' chapter in VIT. I am a part of this chapter for 2 years.
+  description: "ACM is a leading students' chapter in VIT. I am a part of this chapter for 3 years.
   I have worked on several projects in ACM. As the Associate Technical Head, I supervise the Technical
   activities in the chapter - technical projects, events, workshops, and mentoring the members."
 
+- name: FOSSASIA
+  link: https://fossasia.org
+  position: Developer | GCI'17 mentor
+  year: September, 2017 - present
+  description: "FOSSASIA is an open source organisation. I participated in their codeheat contest and contributing to the 
+  organisation since then. It has a vast number of projects going on. I was selected as the Google Code-In mentor at FOSSASIA."
+
 - name: Google Developers Group (GDG-Vellore)
   link: http://gdgvitvellore.com
-  position: Inner circle member
+  position: Web developer
   year: Feb 2017 - present
   description: "GDG VIT is an esteemed developers' group in VIT. I have worked on various projects in GDG and had the opportunity to
   interact with professionals."
 
 - name: Winuall
   link: https://winuall.com
-  position: Intern ( Front-end web developer)
+  position: Front-end developer
   year: May, 2017 - present
   description: "Winuall is a startup focused on helping students with their preparation for IITJEE. It provides a platform for
   students to get their doubts answered by experts. I worked on their new website,
