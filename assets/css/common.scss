@@ -72,8 +72,8 @@ body{
   }
   .role{
     color: inherit;
-    opacity: .65;
-    font-size: 1.143em;
+    opacity: .75;
+    font-size: 1.0em;
   }
   .social-link-span{
     margin: 5px;
@@ -81,6 +81,7 @@ body{
     font-size: 1.5rem;
   }
   .cv-div{
+    display: none;
     padding: 25px 5px;
     .cv-btn{
       background-color: #041f28;
