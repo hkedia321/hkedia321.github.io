@@ -15,11 +15,6 @@
   link: https://github.com/hkedia321/rice-quality-analysis
   description: "Classify rice grains by calculating their average length/breadth ratio by using Image processing in python."
 
-- name: VIT Cab Share
-  link: http://vitcabshare.in
-  description: "Many people go to Chennai or Bangalore Airport by taxi during vactions.
-  This website allows users to search co-passengers for sharing the cab thus saving them the taxi fare. It has helped hundreds of students."
-
 - name: Who is Free
   link: http://whoisfree.16mb.com
   description: A timetable management system for clubs and chapters in VIT. Any club can register all their members' timetables and then search for students who are free in a given slot.
