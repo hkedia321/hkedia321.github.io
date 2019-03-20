@@ -1,32 +1,40 @@
+- name: PayPal
+  link: https://paypal.com
+  position: Software Developer Intern
+  year: Jan, 2019 - July 2019
+  description: "As an Intern at PayPal, Chennai, I am working on revamping their internal money movement visualization tool. I am making a new
+  web application with attractive UI and new features. The project stack is based on Node and React"
+
 - name: Association for Computing Machinery (ACM-VIT)
   link: http://acmvit.in
   position: Associate Technical Head
-  year: May, 2017 - present
-  description: "ACM is a leading students' chapter in VIT. I am a part of this chapter for 3 years.
-  I have worked on several projects in ACM. As the Associate Technical Head, I supervise the Technical
+  year: April, 2017 - April, 2018
+  description: "ACM is a leading students' chapter in VIT. I was a part of this chapter for 3 years.
+  I have worked on several projects in ACM. As the Associate Technical Head, I supervised the Technical
   activities in the chapter - technical projects, events, workshops, and mentoring the members."
 
 - name: FOSSASIA
   link: https://fossasia.org
-  position: Developer | GCI'17 mentor
-  year: September, 2017 - present
-  description: "FOSSASIA is an open source organisation. I participated in their codeheat contest and I am contributing to the 
-  organisation since then. It has a vast number of projects going on. I was selected as the Google Code-In mentor at FOSSASIA."
+  position: Google Summer of Code Intern
+  year: May, 2018 - August 2018
+  description: "FOSSASIA is an open source organisation. I participated in their codeheat contest and I contributed to the 
+  organisation since then. As a GSoC Intern, I worked on SUSI.AI web chatbot plugin. It enables users to create their custom 
+  SUSI chatbot and deploy to their own website. I was also selected as the Google Code-In mentor at FOSSASIA."
 
 - name: Google Developers Group (GDG-Vellore)
   link: http://gdgvitvellore.com
   position: Web developer
-  year: Feb 2017 - present
-  description: "GDG VIT is an esteemed developers' group in VIT. I have worked on various projects in GDG and had the opportunity to
-  interact with professionals."
+  year: Feb 2017 - Feb 2018
+  description: "GDG VIT is an esteemed developers' group in VIT. I have worked on various open-sourced projects in GDG and had the opportunity to
+  interact with professionals. "
 
 - name: Winuall
   link: https://winuall.com
   position: Front-end developer
-  year: May, 2017 - present
+  year: July, 2017 - March 2018
   description: "Winuall is a startup focused on helping students with their preparation for IITJEE. It provides a platform for
   students to get their doubts answered by experts. I worked on their new website,
-  and a Learning management system for the use of coaching centers and students."
+  and a Learning Management System for the use of coaching centers and students."
 
 - name: National Cadet Corps (NCC-VIT)
   link: https://www.facebook.com/vitncc/

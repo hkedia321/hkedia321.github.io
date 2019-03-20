@@ -3,10 +3,10 @@
 - name: PHP, SQL
   rate: 80
 - name: NodeJS
-  rate: 70
+  rate: 80
+- name: Java
+  rate: 75
 - name: Python
   rate: 70
 - name: C++
-  rate: 80
-- name: Java
   rate: 70
