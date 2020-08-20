@@ -34,12 +34,12 @@
 			alert("Please fill in all the Details");
 		}
 			// parameters: service_id, template_id, template_parameters
-			emailjs.send("gmail","harshitkedia_techwebsite",{name: name, email: email, message: msg})
+			emailjs.send("gmail2","harshitkedia_techwebsite",{name: name, email: email, message: msg})
 			.then(function(response) {
 				alert("Thank you for contacting me! I will reach out to you soon.")
 				console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
 			}, function(err) {
-				alert("Error! Couldn't send message. Please try later.")
+				alert("Error! Couldn't send message. Please try later or say hi to me on harshitkedia32@gmail.com")
 				console.log("FAILED. error=", err);
 			});
 		}

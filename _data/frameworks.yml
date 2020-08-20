@@ -10,9 +10,9 @@
 - name: Express
   rate: 70
   rateComplement: 30
-- name: Laravel
-  rate: 60
-  rateComplement: 40
+- name: Spring
+  rate: 70
+  rateComplement: 30
 - name: Jekyll, Sass
   rate: 80
   rateComplement: 20

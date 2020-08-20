@@ -1,9 +1,17 @@
 - name: PayPal
   link: https://paypal.com
+  position: Software Developer Engineer
+  year: July 2019 - Present
+  description: "As a software developer in core payments team at PayPal, Bangalore, I am responsible for building and maintaining various web applications 
+  and frameworks which helps in preventing, analysing, and fixing live transaction issues in PayPal. I have worked on Payment Services which scale to handle
+  300M+ users. The technologies used are Node, React, Java, and various internal frameworks."
+
+- name: PayPal
+  link: https://paypal.com
   position: Software Developer Intern
   year: Jan, 2019 - July 2019
-  description: "As an Intern at PayPal, Chennai, I am working on revamping their internal money movement visualization tool. I am making a new
-  web application with attractive UI and new features. The project stack is based on Node and React"
+  description: "As an Intern at PayPal, Chennai, I worked on revamping their internal transaction visualization web application. I made a new
+  web application with attractive UI and new features. The project stack was based on Node, React and various internal frameworks."
 
 - name: Association for Computing Machinery (ACM-VIT)
   link: http://acmvit.in
