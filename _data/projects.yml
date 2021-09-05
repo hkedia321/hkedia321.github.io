@@ -38,7 +38,3 @@
 - name: MyFFCS
   link: https://github.com/GDGVIT/myFFCSreLoaded
   description: MyFFCS helps students to plan their timetables before the actual FFCS.
-
-- name: Marimuthu K website
-  link: http://marimuthuk.com
-  description: Dr. Marimuthu K is a computer science professor in VIT University. This is his official website.
